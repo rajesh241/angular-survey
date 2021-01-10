@@ -1,0 +1,814 @@
+{
+    "agreement": [
+        {
+            "questionValue": "agreement",
+            "optionLabel": "yes",
+            "optionValue": "yes1"
+        },
+        {
+            "questionValue": "agreement",
+            "optionLabel": "no",
+            "optionValue": "no1"
+        }
+    ],
+    "confirm_age": [
+        {
+            "questionValue": "confirm_age",
+            "optionLabel": "हाँ",
+            "optionValue": "yes2"
+        },
+        {
+            "questionValue": "confirm_age",
+            "optionLabel": "नहीं",
+            "optionValue": "no2"
+        }
+    ],
+    "name": [],
+    "age": [],
+    "district": [
+        {
+            "questionValue": "district",
+            "optionLabel": "अररिया",
+            "optionValue": "Araria"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "अरवल",
+            "optionValue": "Arwal"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "औरंगाबाद",
+            "optionValue": "Aurangabad"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "बांका",
+            "optionValue": "Banka"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "बेगुसराई",
+            "optionValue": "Begusarai"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "भागलपुर",
+            "optionValue": "Bhagalpur"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "भोजपुर",
+            "optionValue": "Bhojpur"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "बक्सर",
+            "optionValue": "Buxar"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "दरभंगा",
+            "optionValue": "Darbhanga"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "मोतिहारी",
+            "optionValue": "Motihari"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "गया",
+            "optionValue": "Gaya"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "गोपालगंज",
+            "optionValue": "Gopalganj"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "जमुई",
+            "optionValue": "Jamui"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "जहानाबाद",
+            "optionValue": "Jehanabad"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "कैमूर",
+            "optionValue": "Kaimur"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "कटिहार",
+            "optionValue": "Katihar"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "खगरिया",
+            "optionValue": "Khagaria"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "किशनगंज",
+            "optionValue": "Kishanganj"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "लखीसराय",
+            "optionValue": "Lakhisarai"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "मधेपुरा",
+            "optionValue": "Madhepura"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "मधुबनी",
+            "optionValue": "Madhubani"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "मुंगेर",
+            "optionValue": "Munger"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "मुज्जफ्फरपुर",
+            "optionValue": "Muzzaffarpur"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "नालंदा",
+            "optionValue": "Nalanda"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "नवादा",
+            "optionValue": "Nawada"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "पटना",
+            "optionValue": "Patna"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "पूर्णिया",
+            "optionValue": "Purnea"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "रोहतास",
+            "optionValue": "Rohtas"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "सहरसा",
+            "optionValue": "Saharsa"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "समस्तीपुर",
+            "optionValue": "Samastipur"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "सरन",
+            "optionValue": "Saran"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "शेखपुरा",
+            "optionValue": "Sheikhpura"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "श्योहार",
+            "optionValue": "Sheohar"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "सीतामढ़ी",
+            "optionValue": "Sitamarhi"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "सिवान",
+            "optionValue": "Siwan"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "सुपौल ",
+            "optionValue": "Supaul"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "वैशाली",
+            "optionValue": "Vaishali"
+        },
+        {
+            "questionValue": "district",
+            "optionLabel": "पश्चिम चम्पारण",
+            "optionValue": "West_Champaran"
+        }
+    ],
+    "Mobile": [],
+    "gender": [
+        {
+            "questionValue": "gender",
+            "optionLabel": "पुरुष",
+            "optionValue": "Male"
+        },
+        {
+            "questionValue": "gender",
+            "optionLabel": "महिला ",
+            "optionValue": "Female"
+        },
+        {
+            "questionValue": "gender",
+            "optionLabel": "Other",
+            "optionValue": "Others8"
+        }
+    ],
+    "religion": [
+        {
+            "questionValue": "religion",
+            "optionLabel": "हिन्दू",
+            "optionValue": "Hindu"
+        },
+        {
+            "questionValue": "religion",
+            "optionLabel": "मुस्लिम",
+            "optionValue": "Muslim"
+        },
+        {
+            "questionValue": "religion",
+            "optionLabel": "सिख",
+            "optionValue": "Sikh"
+        },
+        {
+            "questionValue": "religion",
+            "optionLabel": "ईसाई",
+            "optionValue": "Christian"
+        },
+        {
+            "questionValue": "religion",
+            "optionLabel": "Others",
+            "optionValue": "Others9"
+        }
+    ],
+    "caste": [
+        {
+            "questionValue": "caste",
+            "optionLabel": "SC",
+            "optionValue": "SC"
+        },
+        {
+            "questionValue": "caste",
+            "optionLabel": "ST",
+            "optionValue": "ST"
+        },
+        {
+            "questionValue": "caste",
+            "optionLabel": "BC/EBC",
+            "optionValue": "BC/EBC"
+        },
+        {
+            "questionValue": "caste",
+            "optionLabel": "General",
+            "optionValue": "General"
+        }
+    ],
+    "Marital_Status": [
+        {
+            "questionValue": "Marital_Status",
+            "optionLabel": "शादी-शुदा",
+            "optionValue": "Married"
+        },
+        {
+            "questionValue": "Marital_Status",
+            "optionLabel": "अविवाहित ",
+            "optionValue": "Unmarried"
+        },
+        {
+            "questionValue": "Marital_Status",
+            "optionLabel": "विधवा / विदुर",
+            "optionValue": "Widow_widower"
+        },
+        {
+            "questionValue": "Marital_Status",
+            "optionLabel": "तलाकशुदा",
+            "optionValue": "Divorced"
+        }
+    ],
+    "Education": [
+        {
+            "questionValue": "Education",
+            "optionLabel": "10th",
+            "optionValue": "10th"
+        },
+        {
+            "questionValue": "Education",
+            "optionLabel": "12th",
+            "optionValue": "12th"
+        },
+        {
+            "questionValue": "Education",
+            "optionLabel": "BA/BSc/BTech/Diploma (ongoing/पढ़ रहे हैं)",
+            "optionValue": "UG_ongoing"
+        },
+        {
+            "questionValue": "Education",
+            "optionLabel": "BA/BSc/BTech/Diploma (completed)",
+            "optionValue": "UG_completed"
+        },
+        {
+            "questionValue": "Education",
+            "optionLabel": "MA/MSc/MTech/PGDiploma",
+            "optionValue": "PG"
+        },
+        {
+            "questionValue": "Education",
+            "optionLabel": "PhD",
+            "optionValue": "PhD"
+        }
+    ],
+    "Boards_%": [
+        {
+            "questionValue": "Boards_%",
+            "optionLabel": "30 to 39 %",
+            "optionValue": 0.3
+        },
+        {
+            "questionValue": "Boards_%",
+            "optionLabel": "40 to 49 %",
+            "optionValue": 0.4
+        },
+        {
+            "questionValue": "Boards_%",
+            "optionLabel": "50 to 59 %",
+            "optionValue": 0.5
+        },
+        {
+            "questionValue": "Boards_%",
+            "optionLabel": "60 to 69 %",
+            "optionValue": 0.6
+        },
+        {
+            "questionValue": "Boards_%",
+            "optionLabel": "70 to 79 %",
+            "optionValue": 0.7
+        },
+        {
+            "questionValue": "Boards_%",
+            "optionLabel": "80 to 89 %",
+            "optionValue": 0.8
+        },
+        {
+            "questionValue": "Boards_%",
+            "optionLabel": "90 % अधिक",
+            "optionValue": 0.9
+        }
+    ],
+    "Full_time": [
+        {
+            "questionValue": "Full_time",
+            "optionLabel": "हाँ",
+            "optionValue": "Yes13"
+        },
+        {
+            "questionValue": "Full_time",
+            "optionLabel": "नहीं",
+            "optionValue": "No13"
+        }
+    ],
+    "JobProfile": [
+        {
+            "questionValue": "JobProfile",
+            "optionLabel": "सरकारी नौकरी",
+            "optionValue": "Govt"
+        },
+        {
+            "questionValue": "JobProfile",
+            "optionLabel": "प्राइवेट ऑफिस में नौकरी",
+            "optionValue": "Pvt"
+        },
+        {
+            "questionValue": "JobProfile",
+            "optionLabel": "स्कूल इत्यादि में टीचर की नौकरी",
+            "optionValue": "SchoolTeacher"
+        },
+        {
+            "questionValue": "JobProfile",
+            "optionLabel": "Others, स्पष्ट करें ____",
+            "optionValue": "Others14"
+        }
+    ],
+    "PrevSalary": [],
+    "PrevBoss": [
+        {
+            "questionValue": "PrevBoss",
+            "optionLabel": "सिर्फ काम काज से सम्बंधित बातें ही करते थे",
+            "optionValue": "Professional"
+        },
+        {
+            "questionValue": "PrevBoss",
+            "optionLabel": "काम के साथ साथ वे आपकी निजी ज़िन्दगी के बारे में भी हाल पूछते थे",
+            "optionValue": "CloseRel"
+        },
+        {
+            "questionValue": "PrevBoss",
+            "optionLabel": "कभी भी ठीक से बातचीत नहीं हो पाती थी और उनसे खुलके बात करने में आपको संकोच लगता था",
+            "optionValue": "Hesitant"
+        }
+    ],
+    "Part_time": [
+        {
+            "questionValue": "Part_time",
+            "optionLabel": "हाँ",
+            "optionValue": "Yes16"
+        },
+        {
+            "questionValue": "Part_time",
+            "optionLabel": "नहीं",
+            "optionValue": "No16"
+        }
+    ],
+    "Job_commitment": [
+        {
+            "questionValue": "Job_commitment",
+            "optionLabel": "पार्ट टाइम",
+            "optionValue": "Part_17"
+        },
+        {
+            "questionValue": "Job_commitment",
+            "optionLabel": "फुल टाइम",
+            "optionValue": "Full_17"
+        },
+        {
+            "questionValue": "Job_commitment",
+            "optionLabel": "दोनों ही चलेगा",
+            "optionValue": "Either_17"
+        }
+    ],
+    "JobPref": [],
+    "ResourcesWFH": [
+        {
+            "questionValue": "ResourcesWFH",
+            "optionLabel": "हाँ, कंप्यूटर और अच्छे इंटरनेट कनेक्शन का प्रबंध है",
+            "optionValue": "comp+net"
+        },
+        {
+            "questionValue": "ResourcesWFH",
+            "optionLabel": "इंटरनेट कनेक्शन सिर्फ फ़ोन पे ही है और कंप्यूटर नहीं है",
+            "optionValue": "no_comp"
+        },
+        {
+            "questionValue": "ResourcesWFH",
+            "optionLabel": "इंटरनेट कनेक्शन, फ़ोन या कंप्यूटर नहीं है पर पास के प्रज्ञा केंद्र और कंप्यूटर के दूकान में बैठ के काम कर सकते हैं",
+            "optionValue": "PK"
+        },
+        {
+            "questionValue": "ResourcesWFH",
+            "optionLabel": "घर से काम करने का कोई भी तरीका या प्रबंध नहीं है",
+            "optionValue": "NoWFH"
+        }
+    ],
+    "Job_exp": [
+        {
+            "questionValue": "Job_exp",
+            "optionLabel": "कॉल सेंटर असिस्टेंट",
+            "optionValue": "CallCenter"
+        },
+        {
+            "questionValue": "Job_exp",
+            "optionLabel": "सर्वेयर",
+            "optionValue": "Surveyor"
+        },
+        {
+            "questionValue": "Job_exp",
+            "optionLabel": "डाटा ऑपरेटर",
+            "optionValue": "DataOperator"
+        },
+        {
+            "questionValue": "Job_exp",
+            "optionLabel": "मार्केटिंग/ सेल्स प्रतिनिधि",
+            "optionValue": "Sales"
+        },
+        {
+            "questionValue": "Job_exp",
+            "optionLabel": "Others. स्पष्ट करें ______",
+            "optionValue": "Others20"
+        }
+    ],
+    "Job_info": [
+        {
+            "questionValue": "Job_info",
+            "optionLabel": "तनख्वा",
+            "optionValue": "Money"
+        },
+        {
+            "questionValue": "Job_info",
+            "optionLabel": "काम या ऑफिस कहाँ स्थित है",
+            "optionValue": "Location"
+        },
+        {
+            "questionValue": "Job_info",
+            "optionLabel": "कितने घंटे काम करना होगा",
+            "optionValue": "WorkHours"
+        },
+        {
+            "questionValue": "Job_info",
+            "optionLabel": "मैनेजर/ सुपरवाइजर का नाम जानना जिसके लिए काम करना है",
+            "optionValue": "Name_supervisor"
+        },
+        {
+            "questionValue": "Job_info",
+            "optionLabel": "फर्म या कंपनी कितना पुराना है",
+            "optionValue": "Firm_age"
+        },
+        {
+            "questionValue": "Job_info",
+            "optionLabel": "कुल मिलाकर कितने लोग वहां काम करते हैं",
+            "optionValue": "No_ofWorkers"
+        },
+        {
+            "questionValue": "Job_info",
+            "optionLabel": "आपके साथ अन्य कर्मचारियों का नाम जानना",
+            "optionValue": "Name_fellows"
+        },
+        {
+            "questionValue": "Job_info",
+            "optionLabel": "छुट्टी कब और कैसे मिलेगी जैसे बीमारी में कितनी छुट्टी मिलेगी आदि",
+            "optionValue": "LeavePolicy"
+        }
+    ],
+    "Quit": [
+        {
+            "questionValue": "Quit",
+            "optionLabel": "अधिक काम करवाना या छुट्टी नहीं देने के कारण",
+            "optionValue": "ExtraWork"
+        },
+        {
+            "questionValue": "Quit",
+            "optionLabel": "समय से पैसा नहीं देने के कारण",
+            "optionValue": "Salary_delay"
+        },
+        {
+            "questionValue": "Quit",
+            "optionLabel": "सुपरवाइजर से ताल- मेल नहीं बैठता या उनके खराब व्यवहार के कारण",
+            "optionValue": "Bad_rel_leader"
+        },
+        {
+            "questionValue": "Quit",
+            "optionLabel": "काम में मन नहीं लगने के कारण",
+            "optionValue": "Not_liking_Job"
+        },
+        {
+            "questionValue": "Quit",
+            "optionLabel": "अन्य| स्पष्ट करें _____",
+            "optionValue": "Others_22"
+        }
+    ],
+    "Duration": [
+        {
+            "questionValue": "Duration",
+            "optionLabel": "एक महीने से कम",
+            "optionValue": "<1month"
+        },
+        {
+            "questionValue": "Duration",
+            "optionLabel": "2-3 महीने",
+            "optionValue": "2-3months"
+        },
+        {
+            "questionValue": "Duration",
+            "optionLabel": "6-12 महीने",
+            "optionValue": "6-12months"
+        },
+        {
+            "questionValue": "Duration",
+            "optionLabel": "1-2 साल",
+            "optionValue": "1-2years"
+        },
+        {
+            "questionValue": "Duration",
+            "optionLabel": "3-5 साल",
+            "optionValue": "3-5years"
+        }
+    ],
+    "FuturePlans": [
+        {
+            "questionValue": "FuturePlans",
+            "optionLabel": "जब तक काम मिलता रहेगा इसी तरह का काम करते रहेंगे",
+            "optionValue": "Continue"
+        },
+        {
+            "questionValue": "FuturePlans",
+            "optionLabel": "प्राइवेट संस्था में ही ऊपर के के स्तर की नौकरी जैसे मैनेजर, सुपरवाइजर, टीम लीडर इत्यादि",
+            "optionValue": "Promotion"
+        },
+        {
+            "questionValue": "FuturePlans",
+            "optionLabel": "आगे और पढ़ाई करनी है उसके बाद निर्णय लेंगे",
+            "optionValue": "HigherStudy"
+        },
+        {
+            "questionValue": "FuturePlans",
+            "optionLabel": "सरकारी नौकरी के एग्जाम की तैयारी कर रहे हैं, आगे चलकर सरकारी नौकरी करना ही पसंद करेंगे",
+            "optionValue": "CompetitiveExam"
+        },
+        {
+            "questionValue": "FuturePlans",
+            "optionLabel": "अन्य",
+            "optionValue": "Others_24"
+        }
+    ],
+    "JobSearch": [
+        {
+            "questionValue": "JobSearch",
+            "optionLabel": "0 से 3 महीने",
+            "optionValue": "0-3M"
+        },
+        {
+            "questionValue": "JobSearch",
+            "optionLabel": "3 से 6 महीने",
+            "optionValue": "3-6M"
+        },
+        {
+            "questionValue": "JobSearch",
+            "optionLabel": "6 से 12 महीने",
+            "optionValue": "6-12M"
+        },
+        {
+            "questionValue": "JobSearch",
+            "optionLabel": "1 से 2 साल",
+            "optionValue": "1-2Y"
+        },
+        {
+            "questionValue": "JobSearch",
+            "optionLabel": "2 से 5 साल",
+            "optionValue": "2-5Y"
+        },
+        {
+            "questionValue": "JobSearch",
+            "optionLabel": "5 साल से ज़्यादा",
+            "optionValue": ">5Y"
+        }
+    ],
+    "Job_Ads": [
+        {
+            "questionValue": "Job_Ads",
+            "optionLabel": "अखबार",
+            "optionValue": "Newspaper"
+        },
+        {
+            "questionValue": "Job_Ads",
+            "optionLabel": "रिश्तेदारों और दोस्तों से",
+            "optionValue": "Friends"
+        },
+        {
+            "questionValue": "Job_Ads",
+            "optionLabel": "ऑनलाइन वेबसाइट से/ इंटरनेट से",
+            "optionValue": "Internet"
+        },
+        {
+            "questionValue": "Job_Ads",
+            "optionLabel": "Facebook से",
+            "optionValue": "facebook"
+        },
+        {
+            "questionValue": "Job_Ads",
+            "optionLabel": "Whatsapp पे भेजे मैसेज से",
+            "optionValue": "Whatsapp"
+        }
+    ],
+    "PastApps": [],
+    "PastCalls": [],
+    "SalaryExp": [],
+    "Recommend": [],
+    "WhyRecommend": [
+        {
+            "questionValue": "WhyRecommend",
+            "optionLabel": "उम्र और अनुभव पर आधारित",
+            "optionValue": "FriendAge"
+        },
+        {
+            "questionValue": "WhyRecommend",
+            "optionLabel": "उनकी शिक्षा स्तर को देख के",
+            "optionValue": "FriendEdu"
+        },
+        {
+            "questionValue": "WhyRecommend",
+            "optionLabel": "आपका उनके साथ काम करने का अनुभव है और यह दावे के साथ कह सकते हैं की वे अच्छा काम करेंगे",
+            "optionValue": "FriendExp"
+        },
+        {
+            "questionValue": "WhyRecommend",
+            "optionLabel": "काम के बाहर आपका उनके साथ अच्छा रिश्ता है और आप दावे से कह सकते हैं की उनका व्यवहार बहुत ही अच्छा है",
+            "optionValue": "FriendPersonal"
+        }
+    ],
+    "Supervisor_Ed": [
+        {
+            "questionValue": "Supervisor_Ed",
+            "optionLabel": "10 th class",
+            "optionValue": "Super_10th"
+        },
+        {
+            "questionValue": "Supervisor_Ed",
+            "optionLabel": "12th class",
+            "optionValue": "Super_12th"
+        },
+        {
+            "questionValue": "Supervisor_Ed",
+            "optionLabel": "B.A./B.Tech",
+            "optionValue": "Super_bachelors"
+        },
+        {
+            "questionValue": "Supervisor_Ed",
+            "optionLabel": "M.A./M.Tech",
+            "optionValue": "Super_masters"
+        },
+        {
+            "questionValue": "Supervisor_Ed",
+            "optionLabel": "Ph.D.",
+            "optionValue": "Super_phd"
+        }
+    ],
+    "Supervisor_Lang": [
+        {
+            "questionValue": "Supervisor_Lang",
+            "optionLabel": "सिर्फ हिंदी",
+            "optionValue": "Hindi"
+        },
+        {
+            "questionValue": "Supervisor_Lang",
+            "optionLabel": "सिर्फ भोजपुरी",
+            "optionValue": "Bhojpuri"
+        },
+        {
+            "questionValue": "Supervisor_Lang",
+            "optionLabel": "सिर्फ अंग्रेजी",
+            "optionValue": "English"
+        },
+        {
+            "questionValue": "Supervisor_Lang",
+            "optionLabel": "हिंदी, भोजपुरी और अंग्रेजी",
+            "optionValue": "All_Lang"
+        }
+    ],
+    "Supervisor_Salary": [],
+    "Supervisor_TeamCount": [],
+    "Super_CompayAge": [],
+    "Chance%": [],
+    "Worker_Super_Rel": [
+        {
+            "questionValue": "Worker_Super_Rel",
+            "optionLabel": "विनम्रता और अपने सर्वेयर की दिक्कतों को सुनने और सुलझाने की क्षमता",
+            "optionValue": "humility"
+        },
+        {
+            "questionValue": "Worker_Super_Rel",
+            "optionLabel": "सर्वेयर के काम कि प्रशंसा करना",
+            "optionValue": "appreciation"
+        },
+        {
+            "questionValue": "Worker_Super_Rel",
+            "optionLabel": "काम काच का अच्छा से संचालन करना",
+            "optionValue": "mangerial_skills"
+        },
+        {
+            "questionValue": "Worker_Super_Rel",
+            "optionLabel": "अच्छी अंग्रेजी बोलना",
+            "optionValue": "GoodEnglish"
+        }
+    ],
+    "Payment_method": [
+        {
+            "questionValue": "Payment_method",
+            "optionLabel": "PAYTM",
+            "optionValue": "Paytm"
+        },
+        {
+            "questionValue": "Payment_method",
+            "optionLabel": "GooglePay",
+            "optionValue": "GPay"
+        },
+        {
+            "questionValue": "Payment_method",
+            "optionLabel": "PhonePe",
+            "optionValue": "PhPay"
+        },
+        {
+            "questionValue": "Payment_method",
+            "optionLabel": "मैं भुगतान प्राप्त नहीं करना चाहता हूँ",
+            "optionValue": "NoMoney"
+        }
+    ]
+}
