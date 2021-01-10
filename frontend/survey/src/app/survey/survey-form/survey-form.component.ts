@@ -14,6 +14,7 @@ export class SurveyFormComponent implements OnInit {
   docID:any;
   pages:any = [];
   questions:any = [];
+  options:any = [];
   docReady:boolean = false;
   constructor(
     private _formBuilder: FormBuilder,
@@ -28,6 +29,10 @@ export class SurveyFormComponent implements OnInit {
     this.firebaseService.readJSON('questions').subscribe( (data) => {
       console.log("questions are", data);
       this.questions = data;
+    });
+    this.firebaseService.readJSON('options').subscribe( (data) => {
+      console.log("options are", data);
+      this.options = data;
     });
     this.firebaseService.getIP().subscribe( (resp) => {
       var ip = resp["ip"];
