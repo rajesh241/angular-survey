@@ -117,7 +117,7 @@ venv.bak/
 e2e_test.*
 *.log
 node_modules
-
+environment.ts
 # Include when developing application packages.
 pubspec.lock
 .c9

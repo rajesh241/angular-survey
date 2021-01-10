@@ -1,0 +1,32 @@
+[
+  {
+    "description" : "abcd",
+    "questions" : [
+      {
+      "questionLabel": "क्या आप इस अध्ययन में भाग लेने के लिए सहमत हैं",
+      "questionValue": "Agreement",
+      "questionType": "select",
+      "validation": "select one option. If yes is selected then proceed to the next question. If no is selected then end the survey",
+      "options": [
+        {
+          "value": "Yes1",
+          "label": "yes"
+        },
+        {
+          "value": "No2",
+          "label": "no"
+        }
+      
+        ]
+      }
+   ]
+  },
+
+  {
+    "description" : "efgh",
+    "questions" : [
+
+    ]
+  }
+
+]
