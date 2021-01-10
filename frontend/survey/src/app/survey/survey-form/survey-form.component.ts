@@ -11,15 +11,23 @@ export class SurveyFormComponent implements OnInit {
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;
   isEditable = false;
-
+  docID:any;
+  pages:any = [];
+  questions:any = [];
+  docReady:boolean = false;
   constructor(
     private _formBuilder: FormBuilder,
     public firebaseService:FirebaseService
   ) { }
 
   ngOnInit(): void {
-    this.firebaseService.readJSON('survey').subscribe( (data) => {
+    this.firebaseService.readJSON('pages').subscribe( (data) => {
       console.log(data);
+      this.pages = data;
+    });
+    this.firebaseService.readJSON('questions').subscribe( (data) => {
+      console.log("questions are", data);
+      this.questions = data;
     });
     this.firebaseService.getIP().subscribe( (resp) => {
       var ip = resp["ip"];
@@ -33,7 +41,8 @@ export class SurveyFormComponent implements OnInit {
       }
       this.firebaseService.setData(docID, data).then(() => {
         console.log("Document successfully created!");
-        this.updateData(docID, {"name" : "rajesh"});
+	this.docID = docID;
+	this.docReady = true;
       })
       .catch(err => console.log(err));
     });

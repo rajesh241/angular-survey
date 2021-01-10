@@ -1,4 +1,18 @@
-<mat-horizontal-stepper linear #stepper>
+<div *ngIf="docReady">
+  <mat-horizontal-stepper linear #stepper>
+    <mat-step *ngFor="let page of pages">
+      <h2>{{page.page}}</h2>
+      <p>{{page.description}}</p>
+      <ng-container *ngFor="let question of questions[page.page]">
+	      <p>{{question.questionLabel}}</p>
+      </ng-container>
+      <div>
+        <button color="primary" mat-button matStepperNext>Next</button>
+      </div>
+    </mat-step>
+  </mat-horizontal-stepper>
+</div>
+  <!--
   <mat-step [stepControl]="firstFormGroup" [editable]="isEditable">
     <form [formGroup]="firstFormGroup">
       <ng-template matStepLabel>Fill out your name</ng-template>
@@ -33,5 +47,5 @@
       <button mat-button (click)="stepper.reset()">Reset</button>
     </div>
   </mat-step>
-</mat-horizontal-stepper>
+  -->
 
