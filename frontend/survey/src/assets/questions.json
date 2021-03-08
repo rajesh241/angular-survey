@@ -134,8 +134,8 @@
             "questionValue": "PrevSalary",
             "questionType": "slider",
             "pageNo": "page3",
-            "min": "",
-            "max": "",
+            "min": 0.0,
+            "max": 25000.0,
             "validation": "give values from 0 to 25000",
             "questionLabel": "आपको इस नौकरी में महीने में कितनी तनख्वाह मिलती थी?"
         },
@@ -253,8 +253,8 @@
             "questionValue": "PastApps",
             "questionType": "slider",
             "pageNo": "page4",
-            "min": "",
-            "max": "",
+            "min": 0.0,
+            "max": 20.0,
             "validation": "give values from 0 to 20",
             "questionLabel": "पिछले एक साल में आपने कितनी जगहों पर अप्लाई किया / आवेदन भेजा ?"
         },
@@ -262,8 +262,8 @@
             "questionValue": "PastCalls",
             "questionType": "slider",
             "pageNo": "page4",
-            "min": "",
-            "max": "",
+            "min": 0.0,
+            "max": 20.0,
             "validation": "give values from 0 to 20",
             "questionLabel": "कितनी जगहों ने आपको इंटरव्यू के लिए बुलाया ?"
         },
@@ -271,8 +271,8 @@
             "questionValue": "SalaryExp",
             "questionType": "slider",
             "pageNo": "page4",
-            "min": "",
-            "max": "",
+            "min": 8000.0,
+            "max": 12000.0,
             "validation": "give values from 8000 to 12000",
             "questionLabel": "आप कम से कम कितनी मासिक तनख्वाह की उम्मीद रखते हैं?"
         }
