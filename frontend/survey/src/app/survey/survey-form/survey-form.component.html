@@ -2,7 +2,7 @@
   <mat-horizontal-stepper linear #stepper>
     <mat-step *ngFor="let page of pages">
       <h2 class="mat_display-2">{{page.page}}</h2>
-      <p class="mat-display-1">{{page.description}}</p>
+      <p class="mat-heading-2">{{page.description}}</p>
       <div class="singleq" *ngFor="let question of questions[page.page]">
         <p>{{question.questionLabel}}</p>
 
@@ -29,7 +29,7 @@
             aria-labelledby="example-radio-group-label"
 						(change)="radioChange($event, question)"
             class="example-radio-group">
-            <mat-radio-button class="radiobutton" *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
+            <mat-radio-button class="radiobutton example-radio-button" *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
               {{option.optionLabel}}
             </mat-radio-button>
           </mat-radio-group>
@@ -39,6 +39,7 @@
           <span class="text-small">{{question.min}}</span>
 		    	<mat-slider
             thumbLabel
+						class="angslider"
             [displayWith]="formatLabel"
             (change)="radioChange($event, question)"
             [min] = "question.min"
@@ -46,6 +47,20 @@
           </mat-slider>	
           <span class="text-small">{{question.max}}</span>
 				</div>
+
+        <div *ngIf="question.questionType == 'checkbox'">
+          <mat-list>
+            <mat-list-item *ngFor="let option of options[question.questionValue]">
+              <mat-checkbox
+              [(ngModel)]="option.checked"
+              [labelPosition]="'after'"
+              (change)="checkbox_change(option)"
+              >{{ option.optionLabel }}</mat-checkbox>
+            </mat-list-item>
+          </mat-list>
+
+				</div>
+
 
 
 

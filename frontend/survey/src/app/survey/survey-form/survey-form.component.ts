@@ -84,6 +84,9 @@ export class SurveyFormComponent implements OnInit {
     }
     return value;
   }
+	checkbox_change(option){
+	  console.log("Checkbox has changed", option);
+	}
   updateData(docID, data){
       this.firebaseService.update(docID, data).then(() => {
         console.log("Updates succwssfully !!")

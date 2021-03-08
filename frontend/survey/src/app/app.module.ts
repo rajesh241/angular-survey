@@ -24,6 +24,8 @@ import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSliderModule} from '@angular/material/slider';
+import {MatListModule} from '@angular/material/list';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 import { SurveyFormComponent } from './survey/survey-form/survey-form.component';
@@ -54,6 +56,8 @@ import { SurveyFormComponent } from './survey/survey-form/survey-form.component'
     MatInputModule,
 		MatRadioModule,
     MatSelectModule,
+		MatListModule,
+		MatCheckboxModule,
 		MatSliderModule
   ],
   providers: [],
