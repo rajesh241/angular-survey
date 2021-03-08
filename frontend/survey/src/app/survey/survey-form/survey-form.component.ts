@@ -78,6 +78,12 @@ export class SurveyFormComponent implements OnInit {
 		data[question["questionValue"]] =  value;
 		this.updateData(this.docID, data);
 	}
+  formatLabel(value: number) {
+    if (value >= 1000) {
+      return Math.round(value / 1000) + 'k';
+    }
+    return value;
+  }
   updateData(docID, data){
       this.firebaseService.update(docID, data).then(() => {
         console.log("Updates succwssfully !!")

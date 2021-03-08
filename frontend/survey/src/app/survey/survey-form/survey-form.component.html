@@ -1,9 +1,9 @@
 <div *ngIf="docReady">
   <mat-horizontal-stepper linear #stepper>
     <mat-step *ngFor="let page of pages">
-      <h2>{{page.page}}</h2>
-      <p>{{page.description}}</p>
-      <ng-container *ngFor="let question of questions[page.page]">
+      <h2 class="mat_display-2">{{page.page}}</h2>
+      <p class="mat-display-1">{{page.description}}</p>
+      <div class="singleq" *ngFor="let question of questions[page.page]">
         <p>{{question.questionLabel}}</p>
 
         <div *ngIf="question.questionType == 'textInput'">
@@ -29,21 +29,27 @@
             aria-labelledby="example-radio-group-label"
 						(change)="radioChange($event, question)"
             class="example-radio-group">
-            <mat-radio-button class="example-radio-button" *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
+            <mat-radio-button class="radiobutton" *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
               {{option.optionLabel}}
             </mat-radio-button>
           </mat-radio-group>
-            <!--
-            <mat-label>{{question.questionLabel}}</mat-label>
-            <mat-radio-group aria-label="Select an option">
-              <mat-radio-button value="1">Option 1</mat-radio-button>
-              <mat-radio-button value="2">Option 2</mat-radio-button>
-            </mat-radio-group>
-            -->
+				</div>
+
+        <div *ngIf="question.questionType == 'slider'">
+          <span class="text-small">{{question.min}}</span>
+		    	<mat-slider
+            thumbLabel
+            [displayWith]="formatLabel"
+            (change)="radioChange($event, question)"
+            [min] = "question.min"
+            [max]="question.max">
+          </mat-slider>	
+          <span class="text-small">{{question.max}}</span>
 				</div>
 
 
-      </ng-container>
+
+      </div>
       <div>
         <button color="primary" mat-button matStepperNext>Next</button>
       </div>
