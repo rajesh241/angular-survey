@@ -169,7 +169,7 @@
             "questionLabel": "अभी आप कैसी नौकरी करना पसंद करेंगे "
         },
         {
-            "questionValue": "JobPref",
+            "questionValue": "WFH",
             "questionType": "radio",
             "pageNo": "page4",
             "min": "",
@@ -197,7 +197,7 @@
         },
         {
             "questionValue": "Job_info",
-            "questionType": "radio",
+            "questionType": "checkbox",
             "pageNo": "page4",
             "min": "",
             "max": "",
@@ -305,7 +305,7 @@
             "min": "",
             "max": "",
             "validation": "select any one option",
-            "questionLabel": "आपके समझ से आसिफ जी ने कहाँ तक पढ़ाई की होगी की उनको इस नौकरी के लिए उचित समझा गया?"
+            "questionLabel": "आपके समझ से SUP_BIHAR  ने कहाँ तक पढ़ाई की होगी की उनको इस नौकरी के लिए उचित समझा गया?"
         },
         {
             "questionValue": "Supervisor_Lang",
@@ -314,7 +314,7 @@
             "min": "",
             "max": "",
             "validation": "select any one option",
-            "questionLabel": "आपको क्या लगता है इस नौकरी के लिए आसिफ जी को सिर्फ हिंदी/ भोजपुरी जानने की ज़रुरत है या उनको अंग्रेजी भी आनी चाहिए?"
+            "questionLabel": "आपको क्या लगता है इस नौकरी के लिए SUP_BIHAR  को सिर्फ हिंदी/ भोजपुरी जानने की ज़रुरत है या उनको अंग्रेजी भी आनी चाहिए?"
         },
         {
             "questionValue": "Supervisor_Salary",
@@ -323,7 +323,7 @@
             "min": 0.0,
             "max": 50000.0,
             "validation": "give values from 0 to 50000",
-            "questionLabel": "आपके मुताबिक़ आसिफ जी की महीने की तख्वा कितनी है?"
+            "questionLabel": "आपके मुताबिक़ SUP_BIHAR  की महीने की तख्वा कितनी है?"
         },
         {
             "questionValue": "Supervisor_TeamCount",
@@ -332,7 +332,7 @@
             "min": 0.0,
             "max": 100.0,
             "validation": "give values from 0 to 100",
-            "questionLabel": "आपको क्या लगता है आसिफ जी के अंदर कितने लोग ( सर्वेयर्स) काम करते होंगे ?"
+            "questionLabel": "आपको क्या लगता है SUP_BIHAR  के अंदर कितने लोग ( सर्वेयर्स) काम करते होंगे ?"
         },
         {
             "questionValue": "Super_CompayAge",
@@ -352,7 +352,7 @@
             "min": 0.0,
             "max": 100.0,
             "validation": "give values from 0 to 100",
-            "questionLabel": "यदि आप इस सर्वे कंपनी में , जहाँ आसिफ अली जी सुपरवाइजर हैं, वहां सर्वेयर की नौकरी के लिए अप्लाई करते हैं तब आपको नौकरी मिलने का कितना परसेंट संभावना है ?"
+            "questionLabel": "यदि आप इस सर्वे कंपनी में , जहाँ SUP_BIHAR   सुपरवाइजर हैं, वहां सर्वेयर की नौकरी के लिए अप्लाई करते हैं तब आपको नौकरी मिलने का कितना परसेंट संभावना है ?"
         },
         {
             "questionValue": "Worker_Super_Rel",
@@ -372,7 +372,7 @@
             "min": "",
             "max": "",
             "validation": "select any one option. If Paytm is selected then go to next question. If GPay is selected then skip the next question. If PhPe is selected then skip two questions. If NoMoney is selected then go to page9: end of the survey",
-            "questionLabel": "सर्वेक्षण पूरा करने के लिए, आप 100 रुपये प्राप्त कर सकते हैं। भुगतान प्राप्त करना पूरी तरह से वैकल्पिक है। यदि आप भुगतान प्राप्त करना चाहते हैं, तो कृपया अपनी पसंदीदा भुगतान विधि चुनें।"
+            "questionLabel": "सर्वेक्षण पूरा करने के लिए, आप 50 रुपये प्राप्त कर सकते हैं। भुगतान प्राप्त करना पूरी तरह से वैकल्पिक है। यदि आप भुगतान प्राप्त करना चाहते हैं, तो कृपया अपनी पसंदीदा भुगतान विधि चुनें।"
         },
         {
             "questionValue": "Payment_method",
