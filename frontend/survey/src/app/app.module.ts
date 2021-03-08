@@ -22,6 +22,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
+import {MatRadioModule} from '@angular/material/radio';
 
 import { SurveyFormComponent } from './survey/survey-form/survey-form.component';
 
@@ -49,6 +50,7 @@ import { SurveyFormComponent } from './survey/survey-form/survey-form.component'
     MatButtonModule,
     MatFormFieldModule, 
     MatInputModule,
+		MatRadioModule,
     MatSelectModule
   ],
   providers: [],
