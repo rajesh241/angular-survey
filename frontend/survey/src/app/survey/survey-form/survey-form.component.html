@@ -24,9 +24,21 @@
           </mat-form-field>
         </div>
 
-        <div *ngIf="question.questionType == 'select'">
-          <mat-form-field appearance="fill">
+        <div *ngIf="question.questionType == 'radio'">
+          <mat-radio-group
+            aria-labelledby="example-radio-group-label"
+            class="example-radio-group">
+            <mat-radio-button class="example-radio-button" *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
+              {{option.optionLabel}}
+            </mat-radio-button>
+          </mat-radio-group>
+            <!--
             <mat-label>{{question.questionLabel}}</mat-label>
+            <mat-radio-group aria-label="Select an option">
+              <mat-radio-button value="1">Option 1</mat-radio-button>
+              <mat-radio-button value="2">Option 2</mat-radio-button>
+            </mat-radio-group>
+            -->
 				</div>
 
 
