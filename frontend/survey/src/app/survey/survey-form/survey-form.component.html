@@ -6,23 +6,28 @@
       <ng-container *ngFor="let question of questions[page.page]">
         <p>{{question.questionLabel}}</p>
 
-	<div *ngIf="question.questionType == 'textInput'">
+        <div *ngIf="question.questionType == 'textInput'">
           <mat-form-field>
-	    <mat-label>{{question.questionLabel}}</mat-label>
-            <input matInput  placeholder="placeholder" >
+            <mat-label>{{question.questionLabel}}</mat-label>
+              <input matInput  placeholder="placeholder" >
+            </mat-form-field>
+        </div>
+        
+        <div *ngIf="question.questionType == 'select'">
+          <mat-form-field appearance="fill">
+            <mat-label>{{question.questionLabel}}</mat-label>
+            <mat-select>
+              <mat-option *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
+                {{option.optionLabel}}
+              </mat-option>
+            </mat-select>
           </mat-form-field>
         </div>
 
-	<div *ngIf="question.questionType == 'select'">
+        <div *ngIf="question.questionType == 'select'">
           <mat-form-field appearance="fill">
-             <mat-label>{{question.questionLabel}}</mat-label>
-             <mat-select>
-               <mat-option *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
-                 {{option.optionLabel}}
-               </mat-option>
-             </mat-select>
-          </mat-form-field>
-        </div>
+            <mat-label>{{question.questionLabel}}</mat-label>
+				</div>
 
 
       </ng-container>
