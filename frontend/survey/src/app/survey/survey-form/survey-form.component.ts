@@ -71,6 +71,13 @@ export class SurveyFormComponent implements OnInit {
 		this.updateData(this.docID, data);
 
 	}
+	updateTextInput($event, question){
+		console.log("updating text input", $event.target.value);
+		var value = $event.target.value;
+		var data:any = {}
+		data[question["questionValue"]] =  value;
+		this.updateData(this.docID, data);
+	}
   updateData(docID, data){
       this.firebaseService.update(docID, data).then(() => {
         console.log("Updates succwssfully !!")
