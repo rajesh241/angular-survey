@@ -27,6 +27,7 @@
         <div *ngIf="question.questionType == 'radio'">
           <mat-radio-group
             aria-labelledby="example-radio-group-label"
+						(change)="radioChange($event, question)"
             class="example-radio-group">
             <mat-radio-button class="example-radio-button" *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
               {{option.optionLabel}}

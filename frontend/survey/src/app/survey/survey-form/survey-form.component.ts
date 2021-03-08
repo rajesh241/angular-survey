@@ -63,6 +63,14 @@ export class SurveyFormComponent implements OnInit {
       secondCtrl: ['', Validators.required]
     });
   }
+	radioChange($event, question){
+		console.log("radio has changed", $event);
+		var value = $event.value;
+		var data:any = {}
+		data[question["questionValue"]] =  value;
+		this.updateData(this.docID, data);
+
+	}
   updateData(docID, data){
       this.firebaseService.update(docID, data).then(() => {
         console.log("Updates succwssfully !!")
