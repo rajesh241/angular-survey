@@ -23,8 +23,6 @@
             "optionValue": "no2"
         }
     ],
-    "name": [],
-    "age": [],
     "district": [
         {
             "questionValue": "district",
@@ -217,7 +215,6 @@
             "optionValue": "West_Champaran"
         }
     ],
-    "Mobile": [],
     "gender": [
         {
             "questionValue": "gender",
@@ -409,7 +406,6 @@
             "optionValue": "Others14"
         }
     ],
-    "PrevSalary": [],
     "PrevBoss": [
         {
             "questionValue": "PrevBoss",
@@ -456,7 +452,23 @@
             "optionValue": "Either_17"
         }
     ],
-    "JobPref": [],
+    "WFH": [
+        {
+            "questionValue": "WFH",
+            "optionLabel": "ऑफिस में आकर",
+            "optionValue": "Office"
+        },
+        {
+            "questionValue": "WFH",
+            "optionLabel": "घर से ही",
+            "optionValue": "Work_from_Home"
+        },
+        {
+            "questionValue": "WFH",
+            "optionLabel": "घर या ऑफिस कहीं से",
+            "optionValue": "Either_18"
+        }
+    ],
     "ResourcesWFH": [
         {
             "questionValue": "ResourcesWFH",
@@ -688,10 +700,6 @@
             "optionValue": "Whatsapp"
         }
     ],
-    "PastApps": [],
-    "PastCalls": [],
-    "SalaryExp": [],
-    "Recommend": [],
     "WhyRecommend": [
         {
             "questionValue": "WhyRecommend",
@@ -763,10 +771,6 @@
             "optionValue": "All_Lang"
         }
     ],
-    "Supervisor_Salary": [],
-    "Supervisor_TeamCount": [],
-    "Super_CompayAge": [],
-    "Chance%": [],
     "Worker_Super_Rel": [
         {
             "questionValue": "Worker_Super_Rel",

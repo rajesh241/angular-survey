@@ -2,7 +2,7 @@
     "page1": [
         {
             "questionValue": "agreement",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page1",
             "validation": "select one option. If yes is selected then proceed to the next question. If no is selected then got to page9: end of survey",
             "questionLabel": "क्या आप इस अध्ययन में भाग लेने के लिए सहमत हैं"
@@ -11,7 +11,7 @@
     "page2": [
         {
             "questionValue": "confirm_age",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page2",
             "validation": "select any one option. If हा is selected then proceed to the next question. Otherwise got to page9: end of survey",
             "questionLabel": "क्या आपकी उम्र 18 वर्ष से अधिक है? "
@@ -46,28 +46,28 @@
         },
         {
             "questionValue": "gender",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page2",
             "validation": "select any one option.",
             "questionLabel": "लिंग"
         },
         {
             "questionValue": "religion",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page2",
             "validation": "select any one option.",
             "questionLabel": "धर्म"
         },
         {
             "questionValue": "caste",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page2",
             "validation": "select any one option.",
             "questionLabel": "जाति"
         },
         {
             "questionValue": "Marital_Status",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page2",
             "validation": "select any one option.",
             "questionLabel": " वैवाहिक स्थिति   "
@@ -76,28 +76,28 @@
     "page3": [
         {
             "questionValue": "Education",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page3",
             "validation": "select any one option.",
             "questionLabel": "आपने कितनी पढ़ाई की है?"
         },
         {
             "questionValue": "Boards_%",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page3",
             "validation": "select any one option.",
             "questionLabel": "10th बोर्ड परीक्षा में आपको कितना प्रतिशत अंक आया है?"
         },
         {
             "questionValue": "Full_time",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page3",
             "validation": "select any one option. If yes is selected then proceed to next question. Otherwise skip the next three questions.",
             "questionLabel": "क्या आपने पहले कभी फुल टाइम नौकरी की है"
         },
         {
             "questionValue": "JobProfile",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page3",
             "validation": "select any one option. If others option is selected then provide a conditional text box to elaborate.",
             "questionLabel": "किस तरह की नौकरी थी ?"
@@ -111,14 +111,14 @@
         },
         {
             "questionValue": "PrevBoss",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page3",
             "validation": "select any one option.",
             "questionLabel": "इस नौकरी में आपके सुपरवाइजर या लीडर के साथ कैसे सम्बन्ध थें?"
         },
         {
             "questionValue": "Part_time",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page3",
             "validation": "select any one option.",
             "questionLabel": "क्या आपने कभी पार्ट टाइम नौकरी की है?"
@@ -127,70 +127,70 @@
     "page4": [
         {
             "questionValue": "Job_commitment",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select any one option.",
             "questionLabel": "अभी आप कैसी नौकरी करना पसंद करेंगे "
         },
         {
             "questionValue": "JobPref",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select any one option.",
             "questionLabel": "आप कहाँ से काम करना पसंद करेंगे ?"
         },
         {
             "questionValue": "ResourcesWFH",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select any one option.",
             "questionLabel": "यदि आपको घर से ही काम करने की नौकरी मिलती है तो क्या आपके पास आवश्यक साधन, जैसे कंप्यूटर या स्मार्ट फ़ोन, इंटरनेट कनेक्शन आदि का बंदोबस्त है ?"
         },
         {
             "questionValue": "Job_exp",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select multiple options. If others option is selected then provide a conditional text box to elaborate.",
             "questionLabel": "आप किस प्रकार के नौकरी खोज रहे हैं"
         },
         {
             "questionValue": "Job_info",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select any four options.",
             "questionLabel": "किसी नौकरी के लिए अप्लाई करने से पहले आप नौकरी के बारे में बहुत कुछ जानना चाहते होंगे. अक्सर नौकरी के बारे में विस्तार से बता संभव नहीं होता है.\nआपके अनुसार ऐसी कौन सी चार जानकारी है जो जानना सबसे महत्त्वपूर्ण है? नीचे दिए गए विकल्पों में से चार चुनें:"
         },
         {
             "questionValue": "Quit",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select any one option. If others option is selected then provide a conditional text box to elaborate.",
             "questionLabel": "शुरूआती स्तर के नौकरी में यह पाया गया है की बहुत से व्यक्ति बीच में ही काम छोड़कर चले जाते हैं | आपके समझ से इसकी मुख्या वजह क्या है ?"
         },
         {
             "questionValue": "Duration",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select any one option.",
             "questionLabel": "अगर आपको किसी प्राइवेट संस्था में शुरूआती स्तर वाली नौकरी मिल जाती है तो आप कितने समय तक इस तरह का काम कर सकते हैं ?"
         },
         {
             "questionValue": "FuturePlans",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select any one option.",
             "questionLabel": "शुरुआती स्तर का काम का अनुभव प्राप्त कर लेने के बाद आप आगे चलकर क्या करना चाहते हैं ?"
         },
         {
             "questionValue": "JobSearch",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select any one option.",
             "questionLabel": "आप कितने दिनों से नौकरी की तलाश कर रहे हैं?"
         },
         {
             "questionValue": "Job_Ads",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page4",
             "validation": "select multiple options.",
             "questionLabel": "नयी नौकरी की जानकारी आपको कैसे मिलती है ? आप एक से अधिक ऑप्शन चुन सकते हैं यदि आपको नौकरी के इश्तेहार और जानकारी अन्य जगहों से मिलती है |"
@@ -227,7 +227,7 @@
         },
         {
             "questionValue": "WhyRecommend",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page5",
             "validation": "select any one option",
             "questionLabel": "आपने जिन दोस्तों के नाम के नाम लिखें हैं उन्हें ज़्यादातर  किस आधार पर  चुना  हैं?"
@@ -236,21 +236,21 @@
     "page6": [
         {
             "questionValue": "Supervisor_Ed",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page6",
             "validation": "select any one option",
             "questionLabel": "आपके समझ से आसिफ जी ने कहाँ तक पढ़ाई की होगी की उनको इस नौकरी के लिए उचित समझा गया?"
         },
         {
             "questionValue": "Supervisor_Lang",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page6",
             "validation": "select any one option",
             "questionLabel": "आपको क्या लगता है इस नौकरी के लिए आसिफ जी को सिर्फ हिंदी/ भोजपुरी जानने की ज़रुरत है या उनको अंग्रेजी भी आनी चाहिए?"
         },
         {
             "questionValue": "Supervisor_Salary",
-            "questionType": "slider",
+            "questionType": "radio",
             "pageNo": "page6",
             "validation": "give values from 0 to 50000",
             "questionLabel": "आपके मुताबिक़ आसिफ जी की महीने की तख्वा कितनी है?"
@@ -280,7 +280,7 @@
         },
         {
             "questionValue": "Worker_Super_Rel",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page7",
             "validation": "select any one option.",
             "questionLabel": "आपके हिसाब से एक टीम लीडर और सर्वेयर के बीच मज़बूत रिश्ता बनाने के लिए क्या सबसे ज़रूरी है ?"
@@ -289,7 +289,7 @@
     "page8": [
         {
             "questionValue": "Payment_method",
-            "questionType": "select",
+            "questionType": "radio",
             "pageNo": "page8",
             "validation": "select any one option. If Paytm is selected then go to next question. If GPay is selected then skip the next question. If PhPe is selected then skip two questions. If NoMoney is selected then go to page9: end of the survey",
             "questionLabel": "सर्वेक्षण पूरा करने के लिए, आप 100 रुपये प्राप्त कर सकते हैं। भुगतान प्राप्त करना पूरी तरह से वैकल्पिक है। यदि आप भुगतान प्राप्त करना चाहते हैं, तो कृपया अपनी पसंदीदा भुगतान विधि चुनें।"
