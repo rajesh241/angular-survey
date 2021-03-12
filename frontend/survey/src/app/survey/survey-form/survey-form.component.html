@@ -3,7 +3,8 @@
   <mat-horizontal-stepper linear #stepper>
     <mat-step *ngFor="let page of pages">
       <h2 class="mat_display-2">{{page.page}}</h2>
-      <p class="mat-heading-2">{{page.updatedDescription}}</p>
+			<div class="mat_display-2" [innerHtml]="page.updatedDescription"></div>
+
       <div class="singleq" *ngFor="let question of questions[page.page]">
         <p>{{question.updatedQuestionLabel}}</p>
 

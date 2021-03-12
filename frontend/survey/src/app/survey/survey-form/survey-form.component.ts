@@ -90,6 +90,7 @@ export class SurveyFormComponent implements OnInit {
 		for(let page of this.pages){
 			description  = page.description.replace(re, this.selectedSupName)
 			page["updatedDescription"] = description
+			//page["updatedDescription"] = "<p>how are you</p><p><b>bold</b></p>";
 		}
 
 		for (let key of Object.keys(this.questions)){
