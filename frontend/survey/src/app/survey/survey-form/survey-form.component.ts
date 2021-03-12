@@ -113,11 +113,15 @@ export class SurveyFormComponent implements OnInit {
       secondCtrl: ['', Validators.required]
     });
   }
-	radioChange($event, question){
+	radioChange($event, question, qid, stepper){
 		console.log("radio has changed", $event);
 		var value = $event.value;
 		var data:any = {}
 		data[question["questionValue"]] =  value;
+		console.log("processing {question}");
+		if(question.triggerNextPage == "1"){
+			stepper.next();
+		}
 		this.updateData(this.docID, data);
 
 	}

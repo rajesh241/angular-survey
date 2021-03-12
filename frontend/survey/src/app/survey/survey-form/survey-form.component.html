@@ -1,11 +1,11 @@
 <div *ngIf="docReady">
   <h1>Selected Sup index is {{selectedSupIndex}}</h1>
   <mat-horizontal-stepper linear #stepper>
-    <mat-step *ngFor="let page of pages">
+    <mat-step *ngFor="let page of pages, let pid=index">
       <h2 class="mat_display-2">{{page.page}}</h2>
 			<div class="mat_display-2" [innerHtml]="page.updatedDescription"></div>
 
-      <div class="singleq" *ngFor="let question of questions[page.page]">
+      <div class="singleq" *ngFor="let question of questions[page.page], let qid = index">
         <p>{{question.updatedQuestionLabel}}</p>
 
         <div *ngIf="question.questionType == 'textInput'">
@@ -18,7 +18,7 @@
         <div *ngIf="question.questionType == 'select'">
           <mat-form-field appearance="fill">
             <mat-label>{{question.updatedQuestionLabel}}</mat-label>
-            <mat-select (selectionChange)="radioChange($event, question)">
+            <mat-select (selectionChange)="radioChange($event, question, qid, stepper)">
               <mat-option *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
                 {{option.optionLabel}}
               </mat-option>
@@ -29,7 +29,7 @@
         <div *ngIf="question.questionType == 'radio'">
           <mat-radio-group
             aria-labelledby="example-radio-group-label"
-						(change)="radioChange($event, question)"
+						(change)="radioChange($event, question, qid, stepper)"
             class="example-radio-group">
             <mat-radio-button class="radiobutton example-radio-button" *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
               {{option.optionLabel}}
@@ -43,7 +43,7 @@
             thumbLabel
 						class="angslider"
             [displayWith]="formatLabel"
-            (change)="radioChange($event, question)"
+            (change)="radioChange($event, question, qid, stepper)"
             [min] = "question.min"
             [max]="question.max">
           </mat-slider>	
@@ -68,7 +68,12 @@
 
       </div>
       <div>
-        <button color="primary" mat-button matStepperNext>Next</button>
+				<ng-container *ngIf="pid != 0">
+          <button color="primary" mat-button matStepperPrevious>Previous</button>
+				</ng-container>
+				<ng-container *ngIf="pid != pages.length -1">
+          <button color="primary" mat-button matStepperNext>Next</button>
+				</ng-container>
       </div>
     </mat-step>
   </mat-horizontal-stepper>
