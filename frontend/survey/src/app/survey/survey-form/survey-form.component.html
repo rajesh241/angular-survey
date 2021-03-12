@@ -1,21 +1,22 @@
 <div *ngIf="docReady">
+  <h1>Selected Sup index is {{selectedSupIndex}}</h1>
   <mat-horizontal-stepper linear #stepper>
     <mat-step *ngFor="let page of pages">
       <h2 class="mat_display-2">{{page.page}}</h2>
-      <p class="mat-heading-2">{{page.description}}</p>
+      <p class="mat-heading-2">{{page.updatedDescription}}</p>
       <div class="singleq" *ngFor="let question of questions[page.page]">
-        <p>{{question.questionLabel}}</p>
+        <p>{{question.updatedQuestionLabel}}</p>
 
         <div *ngIf="question.questionType == 'textInput'">
           <mat-form-field>
-            <mat-label>{{question.questionLabel}}</mat-label>
+            <mat-label>{{question.updatedQuestionLabel}}</mat-label>
               <input matInput  placeholder="placeholder" (blur)="updateTextInput($event,question)">
             </mat-form-field>
         </div>
         
         <div *ngIf="question.questionType == 'select'">
           <mat-form-field appearance="fill">
-            <mat-label>{{question.questionLabel}}</mat-label>
+            <mat-label>{{question.updatedQuestionLabel}}</mat-label>
             <mat-select (selectionChange)="radioChange($event, question)">
               <mat-option *ngFor="let option of options[question.questionValue]" [value]="option.optionValue">
                 {{option.optionLabel}}
