@@ -32,14 +32,31 @@ export class SurveyFormComponent implements OnInit {
 			 this.firebaseService.readJSON('sups'),
 			 this.firebaseService.readJSON('pages'),
 			 this.firebaseService.readJSON('questions'),
-			 this.firebaseService.readJSON('options')
-		).subscribe(([sups, pages, questions, options]) => {
+			 this.firebaseService.readJSON('options'),
+			 this.firebaseService.getIP()
+		).subscribe(([sups, pages, questions, options, resp]) => {
       this.supNames = sups;
 			this.selectedSupName = this.supNames[this.selectedSupIndex];
       this.pages = pages;
 			this.questions = questions;
 			this.options = options;
 			this.updateSupName();
+      var ip = resp["ip"];
+      var currentDate = new Date();
+      var timestamp = currentDate.toISOString().split(".")[0];
+      var docID = timestamp+"_"+ip;
+      console.log("docID is", docID);
+      var data = {
+        timestamp : timestamp,
+        ip : ip,
+				supName: this.selectedSupName
+      }
+      this.firebaseService.setData(docID, data).then(() => {
+        console.log("Document successfully created!");
+	      this.docID = docID;
+	      this.docReady = true;
+      })
+      .catch(err => console.log(err));
 		});
    //this.firebaseService.readJSON('pages').subscribe( (data) => {
    //  console.log(data);
@@ -59,24 +76,8 @@ export class SurveyFormComponent implements OnInit {
    //  console.log("options are", data);
    //  this.options = data;
    //});
-    this.firebaseService.getIP().subscribe( (resp) => {
-      var ip = resp["ip"];
-      var currentDate = new Date();
-      var timestamp = currentDate.toISOString().split(".")[0];
-      var docID = timestamp+"_"+ip;
-      console.log("docID is", docID);
-      var data = {
-        timestamp : timestamp,
-        ip : ip,
-				supName: this.selectedSupName
-      }
-      this.firebaseService.setData(docID, data).then(() => {
-        console.log("Document successfully created!");
-	      this.docID = docID;
-	      this.docReady = true;
-      })
-      .catch(err => console.log(err));
-    });
+   //this.firebaseService.getIP().subscribe( (resp) => {
+   //});
     this.setupForms();
     
    // this.createDocument();
